@@ -151,8 +151,8 @@ hr {
   touch-action: none;
   background: #bbada0;
   border-radius: 6px;
-  width: 500px;
-  height: 500px;
+  width: 260px;
+  height: 260px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -177,10 +177,10 @@ hr {
       font-weight: bold;
       height: 60px;
       line-height: 60px;
-      margin-top: 222px; }
+      margin-top: 40px; }
     .game-container .game-message .lower {
       display: block;
-      margin-top: 59px; }
+      margin-top: 40px; }
     .game-container .game-message a {
       display: inline-block;
       background: #8f7a66;
@@ -193,6 +193,8 @@ hr {
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
+    .game-container .game-message a:last-child {
+        margin-top: 10px; }
     .game-container .game-message.game-won {
       background: rgba(237, 194, 46, 0.5);
       color: #f9f6f2; }
@@ -323,17 +325,18 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    /* background: #eee4da; */
     text-align: center;
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    /* background: #eee4da; */
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+    background-image: url("../img/iolani.png") }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+    background-image: url("../img/punahou.png") }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
     background: #f2b179; }
